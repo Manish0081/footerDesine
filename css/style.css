@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.hed-bgC{
+	background-color:#16b2d9;
+	color:white;
+}
+.he-col{
+	color:#16b2d9;
+}
+.ft-bgC{
+	background-color:black;
+	color:white;
+}
+.icon,.icon2,.icon3,.icon4{
+	color:#fff;
+	font-size: 40px;
+    	
+	animation: colorEffect 2s infinite;
+	transition:1s;
+	
+}
+.hova>a{
+	transition:1s;
+}
+.rdt{
+	color:#ffffff6e;
+}
+.hova>a:hover{
+	color:#16b2d9!important;
+	transition:1s;
+}
+.icon2{
+	animation: colorEffect2 2s infinite;
+}
+.icon3{
+	animation: colorEffect3 2s infinite;
+}
+.icon4{
+	animation: colorEffect4 2s infinite;
+}
+.fo{
+	font-family: 'Dancing Script', cursive;
+font-family: 'Oleo Script', cursive;
+}
+.ff>i{
+	display:block;
+	margin:-8px;
+}
+.tbn{
+	background-color:#1f1e1e82;
+	padding:10px;
+	border:2px solid #ffffff2b;
+	border-radius:8px;
+}
+	
+@keyframes colorEffect{
+	0%{
+		text-shadow: 0 0 20px #ff1177, 0 0  30px #d6249f, 0 0  40px #285AEB;
+		border-radius:20px;
+		padding:2px;
+		transition:1s;
+	}
+	100%{
+		text-shadow: 0 0 10px #ff1177, 0 0  15px #d6249f, 0 0 20px #285AEB;
+		border-radius:20px;
+		padding:2px;
+		transition:1s;
+	}
+}
+	
+@keyframes colorEffect2{
+	0%{
+		text-shadow: 0 0 20px #1877f2, 0 0  30px #1459b3, 0 0  40px #179bff;
+		border-radius:20px;
+		padding:2px;
+		transition:1s;
+	}
+	100%{
+		text-shadow: 0 0 10px #1877f2, 0 0  15px #1459b3, 0 0  20px #179bff;
+		border-radius:20px;
+		padding:2px;
+		transition:1s;
+	}
+}
+
+
+@keyframes colorEffect4{
+	0%{
+		text-shadow: 0 0 20px #25d366, 0 0  30px #48ee85, 0 0  40px #0ec0a5;
+		border-radius:20px;
+		padding:2px;
+		transition:1s;
+	}
+	100%{
+		text-shadow: 0 0 10px #25d366, 0 0  15px #48ee85, 0 0  20px #0ec0a5;
+		border-radius:20px;
+		padding:2px;
+		transition:1s;
+	}
+}
+
+
+@keyframes colorEffect3{
+	0%{
+		text-shadow: 0 0 20px #0077b5, 0 0  30px #313335, 0 0  40px #86888a;
+		border-radius:20px;
+		padding:2px;
+		transition:1s;
+	}
+	100%{
+		text-shadow: 0 0 10px #0077b5, 0 0  15px #313335, 0 0  20px #86888a;
+		border-radius:20px;
+		padding:2px;
+		transition:1s;
+	}
+}
+@media(max-width:768px){
+	.hed-bgC .text-end{
+		
+		text-align:center!important;
+	}
+}
